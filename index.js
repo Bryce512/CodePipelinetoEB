@@ -23,7 +23,7 @@ app.set("view engine", "ejs");
 // Serve static files (CSS, images, etc.)
 app.use(express.static(path.join(__dirname, 'public')));
 // Define route for home page
-app.get('/', (req, res) => {
+app.get('/home', (req, res) => {
   // knex('users')
   //   .select(
   //     'users.userID',
@@ -31,12 +31,12 @@ app.get('/', (req, res) => {
   //   )
   //   .then(pokemon => {
       // Render the index.ejs template and pass the data
-      res.render('home', { pokemon });
+      res.render('home');
     // })
 });
 
 // Serve the login page (login.ejs)
-app.get('/login', (req, res) => {
+app.get('/', (req, res) => {
   res.render('login');  // Renders 'login.ejs' file
 });
 
