@@ -2,7 +2,7 @@
 # GitHub Common Terminal Commands
 Follow this guide to using common commands from command line to access GitHub.
 
-## Clone a Repo:
+## Clone a Repo: 
 1. Open Terminal and CD to directory you want to hold your the folder of the repo
 2. Enter "git clone" then the URL of the repo
 > git clone https://github.com/username/repository.git
