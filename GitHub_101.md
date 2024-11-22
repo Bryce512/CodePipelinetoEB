@@ -2,12 +2,12 @@
 # GitHub Common Terminal Commands
 Follow this guide to using common commands from command line to access GitHub.
 
-## Clone a Repo: 
+## Clone a Repo:
 1. Open Terminal and CD to directory you want to hold your the folder of the repo
 2. Enter "git clone" then the URL of the repo
 > git clone https://github.com/username/repository.git
 
-## Pushing to Branch:
+## Pushing to Branch: 
 1. Add all changes in the current  directory
 2. Commit changes to Branch
 3. Push changes to the branch
@@ -55,8 +55,8 @@ Remove Untracked Files
   * Shows all branches and highlights the branch youre on 
 
 > git --version
-  * Shows what version of GitHub you use
-  
+  * Shows what version of GitHub you're using
+
 ### Git Configurations
 
 > git config --global user.name "Your Name" 
