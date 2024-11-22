@@ -24,15 +24,15 @@ app.set("view engine", "ejs");
 app.use(express.static(path.join(__dirname, 'public')));
 // Define route for home page
 app.get('/', (req, res) => {
-  knex('users')
-    .select(
-      'users.userID',
-      'users.userFirstName'
-    )
-    .then(pokemon => {
+  // knex('users')
+  //   .select(
+  //     'users.userID',
+  //     'users.userFirstName'
+  //   )
+  //   .then(pokemon => {
       // Render the index.ejs template and pass the data
       res.render('home', { pokemon });
-    })
+    // })
 });
 
 // Serve the login page (login.ejs)
