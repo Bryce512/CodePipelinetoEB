@@ -1,122 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SplitIt-Home</title>
-  
-  <!-- Materialize CSS CDN -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
-  
-  <!-- Custom CSS (optional) -->
-  <link rel="stylesheet" href="/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Welcome to Example App</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<!-- Navbar for Large Screens -->
-<nav class="nav-wrapper  main_Color">
-  <div class="container" >
-    <a href="#" class="brand-logo">SplitIt</a>
-    
-    <!-- Navbar Links (visible on medium and large screens) -->
-    <ul class="right hide-on-med-and-down">
-      <li><a href="/">Home</a></li>
-      <li><a href="/about">About</a></li>
-      <li><a href="/contact">Contact</a></li>
-    </ul>
-
-
-    <!-- SideNav Trigger Icon (visible on small screens) -->
-    <a href="#" data-target="mobile-nav" class="sidenav-trigger left hide-on-large-only">
-      <i class="material-icons">&#9776</i>
-    </a>
-    <!-- Avatar Icon on Right Side for Mobile Screens -->
-    <li class="avatar-large right">
-      <a href="/profile">
-        <img src="https://via.placeholder.com/350" alt="User Avatar" class="avatar">
-      </a>
-    </li>
-  </div>
-</nav>
-
-<!-- SideNav for Mobile Screens -->
-<ul class="sidenav" id="mobile-nav">
-  <li><a href="/">Home</a></li>
-  <li><a href="/about">About</a></li>
-  <li><a href="/contact">Contact</a></li>
-</ul>
-
-
-  <div class="container">
-    <!-- Page Header -->
-    <h1 class="center-align">Welcome to SplitIt</h1>
-    <h5 class="center-align grey-text">Your All-In-One bill splitting tool</h5>
-    <br>
-
-    <!-- Button -->
-    <div class="center-align">
-      <a href="/login" class="waves-effect waves-light btn"><span class="txt_MainColor">Get Started</span></a>
-    </div>
-
     <div class="container">
-      <!-- Recent Splits Section -->
-      <h2 class="header-text">Recent Splits</h2>
-      <ul class="collection" >
-        <li class="collection-item avatar">
-          <img src="images/yuna.jpg" alt="" class="circle">
-          <span class="title">Title</span>
-          <p>First Line <br> Second Line</p>
-          <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-        </li>
-        <li class="collection-item avatar">
-          <i class="material-icons circle">folder</i>
-          <span class="title">Another Title</span>
-          <p>Another First Line <br> Another Second Line</p>
-          <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-        </li>
-            <li class="collection-item avatar">
-              <i class="material-icons circle green">insert_chart</i>
-              <span class="title">Title</span>
-              <p>First Line <br>
-                Second Line
-              </p>
-              <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-            </li>
-            <li class="collection-item avatar">
-              <i class="material-icons circle red">play_arrow</i>
-              <span class="title">Title</span>
-              <p>First Line <br>
-                Second Line
-              </p>
-              <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
-            </li>
-      </ul>
+        <h1>Congratulations!</h1>
+        <p>You successfully created your Elastic Beanstalk App Deployed from CodePipline!</p>
+        <button class="cta-button">Get Started</button>
     </div>
-    
-    
-              
-<br>
-  <!-- Footer -->
-  <footer class="page-footer main_Color">
-    <div class="container">
-      <h5 class="white-text">SplitIt</h5>
-      <p class="grey-text text-lighten-4">
-        The SplitIt tool is designed to help users easily split bills 
-        from  utilities and rent to resturaunt checks. 
-        They can be scheduled or a one time split. 
-        Everything is handled from the security of Venmo Transactions.
-      </p>
-    </div>
-  </footer>
-
-  <!-- Materialize JavaScript (for interactive components) -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const elems = document.querySelectorAll('.sidenav');
-      M.Sidenav.init(elems);
-    });
-
-  </script>
 </body>
 </html>
